@@ -1,0 +1,216 @@
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #141e30;
+  background: -webkit-linear-gradient(
+    to left,
+    rgb(249, 219, 116),
+    rgb(244, 180, 62)
+  );
+  background: linear-gradient(to left, rgb(249, 219, 116), rgb(244, 180, 62));
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  cursor: pointer;
+  text-shadow: 0px 0px 2px white;
+}
+
+select {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.3),
+    inset -5px -5px 9px 0 rgba(0, 0, 0, 0.3),
+    inset 5px 5px 9px 0 rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  background-color: rgb(247, 200, 89);
+  border-radius: 30px;
+  border: none;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 2em;
+  text-shadow: 0px 0px 1px gray;
+}
+button {
+  margin-top: 30px;
+  width: 180px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.3),
+    inset -5px -5px 9px 0 rgba(0, 0, 0, 0.3),
+    inset 5px 5px 9px 0 rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  color: black;
+  text-shadow: 0px 0px 0.2px white;
+  font-size: large;
+  background-color: rgb(247, 200, 89);
+}
+button:hover {
+  opacity: 0.95;
+}
+button:active {
+  opacity: 0.8;
+}
+hr {
+  width: 90%;
+  height: 1px;
+  background-color: black;
+  border: none;
+  margin-bottom: 50px;
+}
+main {
+  padding: 20px;
+}
+h1 {
+  font-size: 3em;
+  text-shadow: 0px 0px 1px gray;
+}
+img {
+  height: 100px;
+  width: auto;
+  margin-right: 20px;
+  filter: drop-shadow(1px 1px gray);
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 40px;
+  width: 40vw;
+  border-radius: 30px;
+  height: 90%;
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.3),
+    inset -10px -10px 18px 0 rgba(0, 0, 0, 0.2),
+    inset 10px 10px 18px 0 rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+}
+
+.b {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding-bottom: 2.5px;
+  font-size: 12.5px;
+  font-weight: 500;
+  text-shadow: 0px 0px 0px black;
+}
+.b1 {
+  background-color: #ff605c;
+  color: darkred;
+  top: 5vh;
+  left: 12vw;
+}
+.b2 {
+  padding-bottom: 2px;
+  font-size: 13px;
+  background-color: rgb(255, 189, 68);
+  color: rgb(157, 116, 39);
+  top: 5vh;
+  left: 13.5vw;
+}
+.b3 {
+  background-color: #00ca4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5vh;
+  left: 15vw;
+}
+.tri {
+  height: 60%;
+  width: auto;
+  filter: drop-shadow(0px 0px gray);
+  opacity: 0.6;
+}
+.tl {
+  position: absolute;
+  left: 0.32vw;
+  top: 0.58vh;
+  transform: rotate(135deg);
+}
+.tr {
+  position: absolute;
+  left: 0.01vw;
+  top: 0.02vh;
+  transform: rotate(-45deg);
+}
+.tabButtons2 {
+  position: absolute;
+  top: 0vh;
+  left: 47vw;
+}
+.keyKeeper {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+.textK {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+}
+.sK {
+  width: 40%;
+  height: 100%;
+}
+.codeKeeper {
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.3),
+    inset -10px -10px 18px 0 rgba(0, 0, 0, 0.2),
+    inset 10px 10px 18px 0 rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 30%;
+  background-color: rgb(247, 200, 89);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5em;
+}
+.alert {
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
